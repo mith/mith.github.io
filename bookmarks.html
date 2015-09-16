@@ -3,20 +3,25 @@
     <head>
         <meta charset="UTF-8" />
         <title>bookmarks</title>
-	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" />
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
         <link rel="stylesheet" type="text/css" href="./css/default.css" />
     </head>
-    <body>
+    <body class="dark">
         <header id="global-header">
-            <div id="logo">
-                <a href="./">RawPtr</a>
-            </div>
-            <nav>
-	        <a href="//www.github.com/mith">Github</a>
-	        <a href="./bookmarks.html">Bookmarks</a>
-            </nav>
+            <a href="./">RawPtr</a>
         </header>
-        <main>
+        <div>
+            <nav id="sidebar">
+                <ul>
+                    <li>
+                        <a href="//www.github.com/mith">Github</a>
+                    </li>
+                    <li>
+                        <a href="./bookmarks.html">Bookmarks</a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
             <p>A list of links to various resources, papers etc.</p>
 <h1 id="rendering">Rendering</h1>
 <h2 id="opengl">OpenGL</h2>
@@ -70,6 +75,7 @@
 <p><a href="http://fumufumu.q-games.com/archives/Cascaded_Voxel_Cone_Tracing_final.pdf">Cascaded Voxel Cone Tracing in The Tomorrow Children</a></p>
 <p><a href="https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/">A trip through the Graphics Pipeline</a></p>
 <p><a href="https://developer.nvidia.com/sites/default/files/akamai/gamedev/docs/Borderless%20Ptex.pdf">Borderless Ptex</a></p>
-        </main>
+            </main>
+        </div>
     </body>
 </html>
